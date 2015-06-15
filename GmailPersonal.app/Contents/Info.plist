@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.OpenWorkToDo</string>
+	<string>com.apple.ScriptEditor.id.GmailPersonal2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -44,7 +44,7 @@
 		<key>positionOfDivider</key>
 		<real>318</real>
 		<key>savedFrame</key>
-		<string>547 176 575 569 0 0 1366 745 </string>
+		<string>1373 848 575 569 0 0 2560 1417 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

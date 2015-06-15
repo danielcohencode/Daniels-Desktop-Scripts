@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.OpenSysPrefsSecurity</string>
+	<string>com.apple.ScriptEditor.id.SysPrefsSecurity2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -44,7 +44,7 @@
 		<key>positionOfDivider</key>
 		<real>389</real>
 		<key>savedFrame</key>
-		<string>563 77 700 640 0 0 1366 745 </string>
+		<string>1572 491 700 640 0 0 2560 1417 </string>
 		<key>selectedTab</key>
 		<string>description</string>
 	</dict>

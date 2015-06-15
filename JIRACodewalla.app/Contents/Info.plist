@@ -11,7 +11,7 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.OpenWorkToDo</string>
+	<string>com.apple.ScriptEditor.id.JIRACodewalla2</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -44,7 +44,7 @@
 		<key>positionOfDivider</key>
 		<real>215</real>
 		<key>savedFrame</key>
-		<string>210 279 760 466 0 0 1366 745 </string>
+		<string>624 951 760 466 0 0 2560 1417 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

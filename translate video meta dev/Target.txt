@@ -1,0 +1,9 @@
+<div style="display: none;" itemscope itemtype="http://schema.org/VideoObject">
+  <span itemprop="name" style="display:none">Ulitmate One-Day Detox</span>
+  <span itemprop="description" style="display:none">Seek out these superfoods for more energy, better overall health, a boosted fat burn, and rapid weight loss. Plus, they all taste great, too.</span>
+  <link itemprop="thumbnailUrl" src="http://content.jwplatform.com/thumbs/ma4AZeqt-720.jpg" alt="thumbnail text"/>
+  <meta itemprop="uploadDate" content="2015-08-07T08:00:00+08:00"/>
+  <meta itemprop="duration" content=“106” />
+  <link itemprop="contentUrl" href="http://content.jwplatform.com/videos/ma4AZeqt-w68nNKJW.mp4" />
+  <meta itemprop="embedUrl" href="http://www.eatthis.com/how-to-detox-your-body-in-one-day" />
+</div>

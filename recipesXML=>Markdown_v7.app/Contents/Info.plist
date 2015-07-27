@@ -26,7 +26,7 @@
 	<key>CFBundleIconFile</key>
 	<string>droplet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.recipesXML--Markdown-v5</string>
+	<string>com.apple.ScriptEditor.id.recipesXML--Markdown-v7</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -59,7 +59,7 @@
 		<key>positionOfDivider</key>
 		<real>936</real>
 		<key>savedFrame</key>
-		<string>224 335 816 1082 0 0 2560 1417 </string>
+		<string>27 98 1170 1082 0 0 2560 1417 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

@@ -1,0 +1,39 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 SilverPopInPopOut is a neat little demo of how to make API calls and parse the results using AppleScript.\
+\
+MakeNewsletter_v35 is a version of the Newsletter script that does the following:\
+- Makes the hosted and non-hosted versions of the newsletter\
+- Takes the templates for the SaveMailing and ScheduleMailing API calls and adds some data to them.\
+\
+
+\b Here\'92s what needs to be done moving forward:
+\b0 \
+\
+- MakeNewsletter_v35:\
+	- Should create a zip archive of the non-hosted html and the images to upload to SilverPop\
+	- Open Silverpop to create the mailing.\
+	- Perhaps get rid of the bit of code that creates the SaveMailing API call\
+\
+- New script:\
+	- Log in to Silverpop via API, retrieve the sessionID\
+	- Ask user for the template ID of the desired mailing\
+		- Alternatively, retrieve the ID through Silverpop by searching the templates by name?\
+			- Name would come from the desktop folder\
+		- Make replacement in the <TEMPLATE_ID> tag of the two ScheduleMailing calls\
+	- Ask user for the desired send date of the desired mailing\
+		- Alternative: use Google Sheet for the date\
+		- Make replacements in the <SCHEDULED> and <MAILING_NAME> tags of the two\
+		ScheduleMailing calls\
+	- Send both ScheduleMailing calls\
+		- Save the MAILING_ID of the results of both calls. \
+	- Logout\
+\
+	- IF you\'92ve worked out Google Sheets integration, it might be useful to have the script save the TEMPLATE_ID and the MAILING_IDs in new columns for each newsletter. That way, it\'92s easy to retrieve that information in the later scripts.\
+\
+- New script:\
+	- Check up on the A/B calls (using the MAILING_IDs from the previous script, maybe?)}

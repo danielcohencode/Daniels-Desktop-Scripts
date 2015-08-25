@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <script>
+        var json2Rss = function (f) {
+            console.log(f);
+            //readfile('msn.json');
+            var reader = new FileReader();
+            reader.readAsText(f)
+            console.log('working');
+            reader.onload = function () {
+                var text = reader.result;
+                var myjson = JSON.parse(text);
+                console.log(myjson.items[0]);
+                var mel = document.querySelector('#theOut');
+                var mitems = myjson.items;
+                myItemsTexts = "";
+                var icounter = 0;
+                for (var ml = 0; ml < mitems.length; ml++) {
+                    var taggedItem = tagMyJson(mitems[ml]);
+                    icounter++;
+                    myItemsTexts = myItemsTexts + taggedItem;
+
+                }
+                mel.innerHTML = myjson.items[0];
+                tagMyJson(myjson.items[0]);
+                var myFilePrepend = '<?xml version="1.0" encoding="UTF-8"?><rss  version="2.0"><channel><title>Latest News</title><link>https://yoursite.com/channel/latestnews</link><description>The latest news and headlines</description><pubDate>Tue, 09 Sep 2014 04:40:54 -0400</pubDate>';
+                var myFileAppend = '</channel></rss>';
+                var myFileText = "";
+                myFileText = myFilePrepend;
+                myFileText = myFileText + myItemsTexts;
+                myFileText = myFileText + myFileAppend;
+                mel.innerHTML = myFileText;
+                //console.log(mitems.length);
+                //console.log(icounter);
+
+            };
+            reader.onerror = function (e) {
+                console.log("Error", e);
+            };
+
+        };
+        var tagMyJson = function (t) {
+            var myTitle = t.title;
+            var myGuid = t.id;
+            var myDesc = t.abstractText;
+            var myAuthor = t.author;
+            //var myCat = t.categories[0];//categories need to be a code;
+            var mySub = t.subtitle;
+            var myBody = t.body;
+            var myPubDate = t.date.published;
+            var myLink = t.link[0].href;
+            var myImageURL = '';
+            var myImages = t.images;
+            var myImageList = '';
+            for (var ii = 0; ii < myImages.length; ii++) {
+                var miuri = myImages[ii].url;
+                var mturi = myImages[ii].thumbnail;
+                myImageList = myImageList + '<media:content url=' + miuri + ' type="image/jpeg"></media:content>';
+                myImageList = myImageList + '<media:thumbnail url=' + mturi + ' type="image/jpeg"></media:thumbnail>';
+            }
+
+            var myItemText = '<item>';
+
+            myItemText = myItemText + '<title>' + myTitle + '</title>';
+            myItemText = myItemText + '<link>' + myLink + '</link>';
+            myItemText = myItemText + '<description>' + myDesc + '</description>';
+            myItemText = myItemText + '<pubDate>' + myPubDate + '</pubDate>';
+            myItemText = myItemText + '<guid>' + myGuid + '</guid>';
+            myItemText = myItemText + '<author>' + myAuthor + '</author>';
+            myItemText = myItemText + myImageList;
+            //myItemText = myItemText + '<content:encoded><![CDATA[' + myBody + ']]</content:encoded>';
+            myItemText = myItemText + '</item>';
+            return myItemText;
+
+        };
+        //json2Rss();
+    </script>
+
+</head>
+
+<body>
+    <h1>JSON-RSS Converter</h1> Select the file to display:
+    <input type="file" onchange="json2Rss(this.files[0])"></input>
+    <br>
+    <textarea id='theOut' cols='100' rows='30'></textarea>
+
+</body>
+
+</html>

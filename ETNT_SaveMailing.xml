@@ -1,0 +1,25 @@
+<Envelope>
+	<Body>
+		<SaveMailing>
+			<Header>
+				<MailingName><![CDATA[New Mailing Name]]></MailingName>
+				<Subject><![CDATA[Daily Update from Eat This Not That]]></Subject>
+				<ListID>3079906</ListID>
+				<FromName><![CDATA[Eat This Not That]]></FromName>
+				<FromAddress><![CDATA[email@newsletter.eatthis.com]]></FromAddress>
+				<ReplyTo><![CDATA[email@newsletter.eatthis.com]]></ReplyTo>
+				<Visibility>0</Visibility>
+				<Encoding>6</Encoding>
+				<TrackingLevel>4</TrackingLevel>
+			</Header>
+			<MessageBodies>
+				<HTMLBody><![CDATA[<html><head><title>Something's wrong here...</title></head></html>
+				]]></HTMLBody>
+			</MessageBodies>
+			<ClickThroughs></ClickThroughs>
+			<ForwardToFriend>
+				<ForwardType>0</ForwardType>
+			</ForwardToFriend>
+		</SaveMailing>
+	</Body>
+</Envelope>

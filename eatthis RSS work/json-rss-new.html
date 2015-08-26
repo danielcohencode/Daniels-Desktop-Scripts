@@ -24,7 +24,7 @@
                 }
                 mel.innerHTML = myjson.items[0];
                 tagMyJson(myjson.items[0]);
-                var myFilePrepend = '<?xml version="1.0" encoding="UTF-8"?><rss  version="2.0"><channel><title>Latest News</title><link>https://yoursite.com/channel/latestnews</link><description>The latest news and headlines</description><pubDate>Tue, 09 Sep 2014 04:40:54 -0400</pubDate>';
+                var myFilePrepend = '<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Eat This, Not That! No-Diet Weight Loss, Nutrition Tips and More</title><link>http://eatthis.com</link><description>The all-new ultimate weight-loss website featuring simple food swaps, recipes, shopping tips, food news, health hacks and much more.</description><pubDate>2015-08-26T17:26:54.000Z</pubDate>';
                 var myFileAppend = '</channel></rss>';
                 var myFileText = "";
                 myFileText = myFilePrepend;
@@ -66,8 +66,8 @@
             myItemText = myItemText + '<link>' + myLink + '</link>';
             myItemText = myItemText + '<description>' + myDesc + '</description>';
             myItemText = myItemText + '<pubDate>' + myPubDate + '</pubDate>';
-            myItemText = myItemText + '<guid>' + myGuid + '</guid>';
-            myItemText = myItemText + '<author>' + myAuthor + '</author>';
+            myItemText = myItemText + '<guid>' + myLink + '</guid>';
+            //myItemText = myItemText + '<author>' + myAuthor + '</author>';
             myItemText = myItemText + myImageList;
             //myItemText = myItemText + '<content:encoded><![CDATA[' + myBody + ']]</content:encoded>';
             myItemText = myItemText + '</item>';

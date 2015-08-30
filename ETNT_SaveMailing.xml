@@ -8,7 +8,7 @@
 				<FromName><![CDATA[Eat This Not That]]></FromName>
 				<FromAddress><![CDATA[email@newsletter.eatthis.com]]></FromAddress>
 				<ReplyTo><![CDATA[email@newsletter.eatthis.com]]></ReplyTo>
-				<Visibility>0</Visibility>
+				<Visibility>1</Visibility>
 				<Encoding>6</Encoding>
 				<TrackingLevel>4</TrackingLevel>
 			</Header>

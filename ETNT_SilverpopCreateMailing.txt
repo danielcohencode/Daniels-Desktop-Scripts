@@ -6,7 +6,7 @@
 <FromName><![CDATA[Eat This Not That]]></FromName>
 <FromAddress><![CDATA[email@newsletter.eatthis.com]]></FromAddress>
 <ReplyTo><![CDATA[email@newsletter.eatthis.com]]></ReplyTo>
-<Visibility>0</Visibility>
+<Visibility>1</Visibility>
 <Subject>Subject of a Mailing</Subject> <TrackingLevel>4</TrackingLevel>
 <Encoding>6</Encoding>
 <ListID>3079906</ListID>

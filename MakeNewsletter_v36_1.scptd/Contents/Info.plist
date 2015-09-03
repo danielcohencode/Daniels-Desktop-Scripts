@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ScriptEditor.id.MakeNewsletter-v36-1</string>
+	<key>CFBundleName</key>
+	<string>MakeNewsletter_v36_1</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>WindowState</key>
+	<dict>
+		<key>bundleDividerCollapsed</key>
+		<true/>
+		<key>bundlePositionOfDivider</key>
+		<real>0.0</real>
+		<key>dividerCollapsed</key>
+		<false/>
+		<key>eventLogLevel</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>ScriptWindowState</string>
+		<key>positionOfDivider</key>
+		<real>209</real>
+		<key>savedFrame</key>
+		<string>138 398 517 347 0 0 1366 745 </string>
+		<key>selectedTab</key>
+		<string>result</string>
+	</dict>
+</dict>
+</plist>

@@ -13,7 +13,7 @@
 				<TrackingLevel>4</TrackingLevel>
 			</Header>
 			<MessageBodies>
-				<HTMLBody><![CDATA[<html><head><title>Something's wrong here...</title></head></html>
+				<HTMLBody><![CDATA[<html><head><title>Awesome content is coming!</title></head></html>
 				]]></HTMLBody>
 			</MessageBodies>
 			<ClickThroughs></ClickThroughs>

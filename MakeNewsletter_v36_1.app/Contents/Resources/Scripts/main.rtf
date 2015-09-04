@@ -2180,6 +2180,15 @@
 \b0  \cf5 valueAt\cf3 (\cf5 RELEASE_DATE_COLUMN\cf3 , \cf5 active_newsletter_row\cf3 )\
 			\cf2 (* DATE HANDLING STUFF *)\cf3 \
 			
+\b set
+\b0  \cf5 myWeekday\cf3  
+\b to
+\b0  
+\i \cf4 weekday
+\i0 \cf3  
+\b of
+\b0  \cf5 mail_date\cf3 \
+			
 \b if
 \b0  (
 \i \cf4 month
@@ -2654,7 +2663,19 @@
 \i0 \cf3 \} \cf4 saving\cf3  
 \i \cf7 no
 \i0 \cf3 \
-		\cf2 -- replace "<LIST_ID>3079906</LIST_ID>" using...\cf3 \
+		
+\b \cf4 replace
+\b0 \cf3  "3079906" \cf7 using\cf3  "4043982" \cf4 searching in\cf3  
+\i \cf4 document
+\i0 \cf3  1 \cf4 options\cf3  \{\cf7 search mode\cf3 :
+\i \cf7 literal
+\i0 \cf3 , \cf7 starting at top\cf3 :
+\i \cf7 true
+\i0 \cf3 , \cf7 showing results\cf3 :
+\i \cf7 false
+\i0 \cf3 \} \cf4 saving\cf3  
+\i \cf7 no
+\i0 \cf3 \
 		
 \b \cf4 save
 \b0 \cf3  
@@ -2757,7 +2778,19 @@
 \i0 \cf3 \} \cf4 saving\cf3  
 \i \cf7 no
 \i0 \cf3 \
-		\cf2 -- replace "<LIST_ID>3079906</LIST_ID>" using...		\cf3 \
+		
+\b \cf4 replace
+\b0 \cf3  "3079906" \cf7 using\cf3  "4043983" \cf4 searching in\cf3  
+\i \cf4 document
+\i0 \cf3  1 \cf4 options\cf3  \{\cf7 search mode\cf3 :
+\i \cf7 literal
+\i0 \cf3 , \cf7 starting at top\cf3 :
+\i \cf7 true
+\i0 \cf3 , \cf7 showing results\cf3 :
+\i \cf7 false
+\i0 \cf3 \} \cf4 saving\cf3  
+\i \cf7 no
+\i0 \cf3 \
 		
 \b \cf4 save
 \b0 \cf3  
@@ -2871,13 +2904,7 @@
 \b \cf4 make
 \b0 \cf3  \cf4 new\cf3  
 \i \cf4 outgoing message
-\i0 \cf3  \cf4 with properties\cf3  \{\cf7 subject\cf3 :"ETNT" & \cf5 NewsletterCode\cf3  & "\'97releases " & (
-\i \cf4 weekday
-\i0 \cf3  
-\b of
-\b0  (
-\b \cf6 current date
-\b0 \cf3 )), \cf7 content\cf3 :""\}\
+\i0 \cf3  \cf4 with properties\cf3  \{\cf7 subject\cf3 :"ETNT" & \cf5 NewsletterCode\cf3  & "\'97releases " & (\cf5 myWeekday\cf3  & " " & (\cf5 mail_month\cf3  & "/" & \cf5 mail_day\cf3 )), \cf7 content\cf3 :""\}\
 	
 \b tell
 \b0  \cf5 theMessage\cf3 \

@@ -44,7 +44,11 @@
 		<key>positionOfDivider</key>
 		<real>401</real>
 		<key>savedFrame</key>
+<<<<<<< HEAD
 		<string>200 206 804 539 0 0 1366 745 </string>
+=======
+		<string>1318 141 1114 1276 0 0 2560 1417 </string>
+>>>>>>> origin/master
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

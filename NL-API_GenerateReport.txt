@@ -1,4 +1,5 @@
 <Envelope><Body>
+<email>dcohen@galvanized.com</email>
 <GetAggregateTrackingForMailing>
 <MAILING_ID>123</MAILING_ID>
 <REPORT_ID>12332</REPORT_ID>

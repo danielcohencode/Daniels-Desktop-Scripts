@@ -1,0 +1,7 @@
+<Envelope><Body>
+<GetReportIdByDate>
+<MAILING_ID>24092151</MAILING_ID>
+<DATE_START>11/30/2015 00:00:00</DATE_START>
+<DATE_END>11/30/2015 23:00:00</DATE_END>
+</GetReportIdByDate>
+</Body></Envelope>

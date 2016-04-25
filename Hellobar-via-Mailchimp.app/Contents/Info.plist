@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.Reporting-AggregateMailingCleaner</string>
+	<string>com.apple.ScriptEditor.id.Hellobar-via-Mailchimp</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Reporting-AggregateMailingCleaner</string>
+	<string>Hellobar-via-Mailchimp</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -38,15 +38,15 @@
 		<key>dividerCollapsed</key>
 		<false/>
 		<key>eventLogLevel</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>590</real>
+		<real>598</real>
 		<key>savedFrame</key>
-		<string>-1177 -280 1038 1025 -1920 -312 1920 1057 </string>
+		<string>-1512 -104 778 849 -1920 -312 1920 1057 </string>
 		<key>selectedTab</key>
-		<string>log</string>
+		<string>result</string>
 	</dict>
 </dict>
 </plist>

@@ -42,9 +42,15 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
+<<<<<<< HEAD
+		<real>679</real>
+		<key>savedFrame</key>
+		<string>123 417 1099 1000 0 0 2560 1417 </string>
+=======
 		<real>410</real>
 		<key>savedFrame</key>
 		<string>74 71 1143 674 0 0 1366 745 </string>
+>>>>>>> origin/master
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

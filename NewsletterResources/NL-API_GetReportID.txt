@@ -1,7 +1,9 @@
 <Envelope><Body>
-<GetReportIdByDate>
-<MAILING_ID>mailing-id</MAILING_ID>
-<DATE_START>11/30/2015 00:00:00</DATE_START>
-<DATE_END>11/30/2015 23:00:00</DATE_END>
-</GetReportIdByDate>
+<GetSentMailingsForUser>
+<DATE_START>01/01/2006 00:00:00</DATE_START>
+<DATE_END>03/09/2006 23:59:59</DATE_END>
+<OPTIONALUSER>dcohen@galvanized.com</OPTIONALUSER>
+<SENDING/>
+<EXCLUDE_TEST_MAILINGS/>
+</GetSentMailingsForUser>
 </Body></Envelope>

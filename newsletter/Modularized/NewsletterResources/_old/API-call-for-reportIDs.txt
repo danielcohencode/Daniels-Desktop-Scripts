@@ -1,0 +1,149 @@
+<Envelope><Body>
+<GetSentMailingsForUser>
+<DATE_START>01/01/2006 00:00:00</DATE_START>
+<DATE_END>03/09/2006 23:59:59</DATE_END>
+<OPTIONALUSER>dcohen@galvanized.com</OPTIONALUSER>
+<SENDING/>
+<EXCLUDE_TEST_MAILINGS/>
+</GetSentMailingsForUser>
+</Body></Envelope>
+
+
+
+____
+
+results
+
+<Envelope>
+<Body>
+<RESULT>
+<SUCCESS>TRUE</SUCCESS>
+<Mailing>
+<MailingId>25441971</MailingId>
+<ReportId>801399342</ReportId>
+<ScheduledTS>2016-05-09 12:40:09.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-A-weeklyGroup2]]></MailingName>
+<ListName><![CDATA[0002-ActiveWeekly-Group2-042716]]></ListName>
+<ListId>5276933</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[Protein Foods Jillian Michael Swears By]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25441975</MailingId>
+<ReportId>801399350</ReportId>
+<ScheduledTS>2016-05-09 12:40:09.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-A-weeklyGroup3]]></MailingName>
+<ListName><![CDATA[0003-021916-ActiveWeekly-Group3-workaround]]></ListName>
+<ListId>5277309</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[Protein Foods Jillian Michael Swears By]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25439696</MailingId>
+<ReportId>801381047</ReportId>
+<ScheduledTS>2016-05-09 10:15:00.0</ScheduledTS>
+<MailingName><![CDATA[ZB-050916-532newweapon (1)]]></MailingName>
+<ListName><![CDATA[ZB-AllActives]]></ListName>
+<ListId>4117459</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[The New Weapon to Blast Belly Fat]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25431218</MailingId>
+<ReportId>801154899</ReportId>
+<ScheduledTS>2016-05-09 06:40:00.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-D]]></MailingName>
+<ListName><![CDATA[042715-DailySplit-6way - Segment 4]]></ListName>
+<ListId>5244252</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[25 Foods That Give You Gorgeous Skin]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25431217</MailingId>
+<ReportId>801154896</ReportId>
+<ScheduledTS>2016-05-09 06:40:00.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-C]]></MailingName>
+<ListName><![CDATA[042715-DailySplit-6way - Segment 3]]></ListName>
+<ListId>5244251</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[Best Foods for Glowy Skin]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25431219</MailingId>
+<ReportId>801154917</ReportId>
+<ScheduledTS>2016-05-09 06:40:00.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-E]]></MailingName>
+<ListName><![CDATA[042715-DailySplit-6way - Segment 5]]></ListName>
+<ListId>5244253</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[What Do Your Taste Buds Say About You?]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25431215</MailingId>
+<ReportId>801154892</ReportId>
+<ScheduledTS>2016-05-09 06:40:00.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-B]]></MailingName>
+<ListName><![CDATA[042715-DailySplit-6way - Segment 2]]></ListName>
+<ListId>5244250</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[Jillian Michael’s Favorite Protein Foods]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25431214</MailingId>
+<ReportId>801154878</ReportId>
+<ScheduledTS>2016-05-09 06:40:00.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-A]]></MailingName>
+<ListName><![CDATA[042715-DailySplit-6way - Segment 1]]></ListName>
+<ListId>5244249</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[Protein Foods Jillian Michael Swears By]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+<Mailing>
+<MailingId>25431220</MailingId>
+<ReportId>801154924</ReportId>
+<ScheduledTS>2016-05-09 06:40:00.0</ScheduledTS>
+<MailingName><![CDATA[050916-531jillianmichaelprotein-F]]></MailingName>
+<ListName><![CDATA[042715-DailySplit-6way - Segment 6]]></ListName>
+<ListId>5244254</ListId>
+<ParentListId>2985177</ParentListId>
+<UserName>Daniel Cohen</UserName>
+<SentTS/>
+<NumSent>0</NumSent>
+<Subject><![CDATA[Protein Foods Jillian Michael Swears By]]></Subject>
+<Visibility>Shared</Visibility>
+</Mailing>
+</RESULT>
+</Body>
+</Envelope>

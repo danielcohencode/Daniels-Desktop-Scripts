@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.Gmail2</string>
+	<string>com.apple.ScriptEditor.id.Asana-open-personal</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>OpenWorkToDo</string>
+	<string>Asana-open-personal</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -42,9 +42,9 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>318</real>
+		<real>388</real>
 		<key>savedFrame</key>
-		<string>132 176 575 569 0 0 1366 745 </string>
+		<string>402 102 700 639 0 0 1366 745 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

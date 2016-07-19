@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.Asana-open</string>
+	<string>com.apple.ScriptEditor.id.Asana-open-personal</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>Asana-open</string>
+	<string>Asana-open-personal</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -44,7 +44,7 @@
 		<key>positionOfDivider</key>
 		<real>388</real>
 		<key>savedFrame</key>
-		<string>191 64 700 639 0 0 1366 745 </string>
+		<string>402 102 700 639 0 0 1366 745 </string>
 		<key>selectedTab</key>
 		<string>result</string>
 	</dict>

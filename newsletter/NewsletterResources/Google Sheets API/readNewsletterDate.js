@@ -11,7 +11,7 @@ var TOKEN_DIR = (process.env.HOME || process.env.HOMEPATH ||
 var TOKEN_PATH = TOKEN_DIR + 'sheets.googleapis.com-nodejs-zcgalv.json';
 
 // Load client secrest from a local file.
-fs.readFile('zcgalv_client_secret.json', function processClientSecrets(err, content) {
+fs.readFile('zcgalv-client-secret.json', function processClientSecrets(err, content) {
 	if (err) {
 		console.log('Error loading client secret file: ' + err);
 		return;
@@ -104,7 +104,7 @@ function getDate(auth) {
 	sheets.spreadsheets.values.get({
 		auth: auth,
 		spreadsheetId: '1ax1mKsgutnKXZoTCKmJ_a5z_BlAo6IApSm625AsVakQ',
-		range: 'Current!A11:E',
+		range: 'Current!A11:F',
 	}, function (err, response) {
 		if (err) {
 			console.log('The API returned an error: ' + err);
@@ -116,7 +116,7 @@ function getDate(auth) {
 		} else {
 			for (var i = 0; i < rows.length; i++) {
 				if (rows[i][0] == process.argv[2]){
-					console.log(rows[i][4]);
+					console.log(rows[i][4] + rows[i][5]);
 					return;
 				}
 			}

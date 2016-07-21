@@ -45,9 +45,13 @@
 		<real>862</real>
 		<key>savedFrame</key>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<string>742 218 871 1156 0 0 2560 1417 </string>
 =======
 		<string>1510 303 1077 1114 0 0 2560 1417 </string>
+>>>>>>> master
+=======
+		<string>1371 303 1077 1114 0 0 2560 1417 </string>
 >>>>>>> master
 		<key>selectedTab</key>
 		<string>log</string>

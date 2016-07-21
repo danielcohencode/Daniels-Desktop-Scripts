@@ -96,18 +96,18 @@ function storeToken(token) {
 }
 
 /**
- * Grab the date of the current mailing from my sample spreadsheet:
- * https://docs.google.com/spreadsheets/d/1ax1mKsgutnKXZoTCKmJ_a5z_BlAo6IApSm625AsVakQ/edit#gid=157047276
+ * Grab the date of the current mailing the main spreadsheet:
+ * https://docs.google.com/spreadsheets/d/1xd0l1yGnct4JR-EEdkwQTKSFIQ2Ad91afA8xq4zx5cw
  */
 function getDate(auth) {
 	var sheets = google.sheets('v4');
 	sheets.spreadsheets.values.get({
 		auth: auth,
-		spreadsheetId: '1ax1mKsgutnKXZoTCKmJ_a5z_BlAo6IApSm625AsVakQ',
+		spreadsheetId: '1xd0l1yGnct4JR-EEdkwQTKSFIQ2Ad91afA8xq4zx5cw',
 		range: 'Current!A11:F',
 	}, function (err, response) {
 		if (err) {
-			console.log('The API returned an error: ' + err);
+			throw ('The API returned an error: ' + err + '\n\n Some suggestions: Is the current sheet named "Current"? Did the layout of the sheet change?');
 			return;
 		}
 		var rows = response.values;

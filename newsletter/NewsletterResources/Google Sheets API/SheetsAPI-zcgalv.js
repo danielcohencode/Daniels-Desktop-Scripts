@@ -18,7 +18,15 @@ fs.readFile('zcgalv-client-secret.json', function processClientSecrets(err, cont
 	}
 	// Authorize a client with the loaded credentials, then call the
 	// Google Sheets API.
-	authorize(JSON.parse(content), getDate);
+	
+	switch (process.argv[2]){
+		case "date":
+			authorize(JSON.parse(content), getDate);
+			break;
+		case "promos":
+			authorize(JSON.parse(content), getPromos);
+			break;
+	} // end switch
 });
 
 /**
@@ -112,15 +120,42 @@ function getDate(auth) {
 		}
 		var rows = response.values;
 		if (rows.length == 0){
-			console.log('No data found.');
+			throw ("No Data Detected!");
 		} else {
 			for (var i = 0; i < rows.length; i++) {
-				if (rows[i][0] == process.argv[2]){
+				if (rows[i][0] == process.argv[3]){
 					console.log(rows[i][4] + rows[i][5]);
 					return;
 				}
 			}
 			throw "Finished spreadsheet";
+		}
+	});
+}
+
+function getPromos(auth){
+	var sheets = google.sheets('v4');
+	sheets.spreadsheets.values.get({
+		auth: auth,
+		spreadsheetId: '1GNIysxles9wGQd6br959-UXwgIuCzUVmsmGaGwxhQ0M',
+		range: 'Sheet1!A2:B',
+	}, function (err, response) {
+		if (err) {
+			throw ('The API returned an error: ' + err + '\n\n I don\'t know what could have caused this one...');
+			return;
+		}
+		var rows = response.values;
+		if (rows.length == 0){
+			throw ("No Data Detected!");
+		} else {
+			var returner = "";
+			for (var i = 0; i < rows.length; i++) {
+				returner += (rows[i][0] + "~" + rows[i][1]);
+				if (i != rows.length - 1){
+					returner += "~";
+				}
+			}
+			console.log(returner);
 		}
 	});
 }

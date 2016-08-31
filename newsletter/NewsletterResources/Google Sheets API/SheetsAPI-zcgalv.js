@@ -26,6 +26,9 @@ fs.readFile('zcgalv-client-secret.json', function processClientSecrets(err, cont
 		case "promos":
 			authorize(JSON.parse(content), getPromos);
 			break;
+		case "promoID":
+			authorize(JSON.parse(content), getPromoID);
+			break;
 	} // end switch
 });
 
@@ -125,6 +128,32 @@ function getDate(auth) {
 			for (var i = 0; i < rows.length; i++) {
 				if (rows[i][0] == process.argv[3]){
 					console.log(rows[i][4] + rows[i][5]);
+					return;
+				}
+			}
+			throw "Finished spreadsheet";
+		}
+	});
+}
+
+function getPromoID(auth) {
+	var sheets = google.sheets('v4');
+	sheets.spreadsheets.values.get({
+		auth: auth,
+		spreadsheetId: '1xd0l1yGnct4JR-EEdkwQTKSFIQ2Ad91afA8xq4zx5cw',
+		range: 'Current!A11:O',
+	}, function (err, response) {
+		if (err) {
+			throw ('The API returned an error: ' + err + '\n\n Some suggestions: Is the current sheet named "Current"? Did the layout of the sheet change?');
+			return;
+		}
+		var rows = response.values;
+		if (rows.length == 0){
+			throw ("No Data Detected!");
+		} else {
+			for (var i = 0; i < rows.length; i++) {
+				if (rows[i][0] == process.argv[3]){
+					console.log(rows[i][14].substring(44,52));
 					return;
 				}
 			}

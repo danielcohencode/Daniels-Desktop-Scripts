@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.MakeNewsletter-make-2016</string>
+	<string>com.apple.ScriptEditor.id.MakeNewsletter-upload-AutoPTH-dev</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MakeNewsletter_make_2016</string>
+	<string>MakeNewsletter_v36_2</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -42,9 +42,9 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>788</real>
+		<real>673</real>
 		<key>savedFrame</key>
-		<string>1423 179 1118 1204 0 0 2560 1417 </string>
+		<string>0 93 1280 908 0 0 1280 1001 </string>
 		<key>selectedTab</key>
 		<string>log</string>
 	</dict>

@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.MakeNewsletter-upload-AutoPTH-dev</string>
+	<string>com.apple.ScriptEditor.id.OpenETNT-CMS</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MakeNewsletter_v36_2</string>
+	<string>OpenETNT-CMS</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -38,13 +38,13 @@
 		<key>dividerCollapsed</key>
 		<false/>
 		<key>eventLogLevel</key>
-		<integer>2</integer>
+		<integer>1</integer>
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>673</real>
+		<real>844</real>
 		<key>savedFrame</key>
-		<string>199 325 1882 1037 0 0 2560 1417 </string>
+		<string>786 -125 1016 1143 0 0 2560 1417 </string>
 		<key>selectedTab</key>
 		<string>log</string>
 	</dict>

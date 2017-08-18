@@ -11,11 +11,11 @@
 	<key>CFBundleIconFile</key>
 	<string>applet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.ScriptEditor.id.MakeNewsletter-make-2016</string>
+	<string>com.apple.ScriptEditor.id.ETNT-markdown-validator</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>MakeNewsletter_make_2016</string>
+	<string>ETNT-markdown-validator</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,10 +31,6 @@
 	<true/>
 	<key>WindowState</key>
 	<dict>
-		<key>bundleDividerCollapsed</key>
-		<true/>
-		<key>bundlePositionOfDivider</key>
-		<real>0.0</real>
 		<key>dividerCollapsed</key>
 		<false/>
 		<key>eventLogLevel</key>
@@ -42,11 +38,11 @@
 		<key>name</key>
 		<string>ScriptWindowState</string>
 		<key>positionOfDivider</key>
-		<real>809</real>
+		<real>768</real>
 		<key>savedFrame</key>
-		<string>1123 167 1188 1117 0 0 2560 1417 </string>
-		<key>selectedTab</key>
-		<string>log</string>
+		<string>1448 218 1039 1182 0 0 2560 1418 </string>
+		<key>selectedTabView</key>
+		<string>event log</string>
 	</dict>
 </dict>
 </plist>
